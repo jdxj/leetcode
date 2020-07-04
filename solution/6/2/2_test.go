@@ -1,4 +1,4 @@
-package p622
+package s622
 
 import (
 	"fmt"
