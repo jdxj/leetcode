@@ -27,3 +27,15 @@ func Max3(p1, p2, p3 int) int {
 	}
 	return Max2(p1, p2)
 }
+
+func IsEqualSliceInt(p1, p2 []int) bool {
+	if len(p1) != len(p2) {
+		return false
+	}
+	for i := range p1 {
+		if p1[i] != p2[i] {
+			return false
+		}
+	}
+	return true
+}
