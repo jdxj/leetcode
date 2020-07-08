@@ -10,3 +10,15 @@ func TestDailyTemperatures(t *testing.T) {
 	result := dailyTemperatures(T)
 	fmt.Printf("%v\n", result)
 }
+
+func TestFloodFill(t *testing.T) {
+	image := [][]int{
+		{1, 1, 1},
+		{1, 1, 0},
+		{1, 0, 1},
+	}
+	floodFill(image, 1, 1, 2)
+	for _, v := range image {
+		fmt.Printf("%v\n", v)
+	}
+}
