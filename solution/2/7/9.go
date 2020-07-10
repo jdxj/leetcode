@@ -1,9 +1,10 @@
-package s279
+package s27
 
 import (
 	"github.com/jdxj/leetcode/util"
 )
 
+// 279
 // 类似322题.
 
 // 定义 DP[n]: 组成完全平方数 n 所需数字的最少个数
