@@ -1,4 +1,5 @@
-package s33
+// 033
+package s03
 
 func search(nums []int, target int) int {
 	if len(nums) == 0 {
