@@ -1,4 +1,4 @@
-package s704
+package s70
 
 import (
 	"fmt"

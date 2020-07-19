@@ -1,5 +1,5 @@
 // 700
-package s704
+package s70
 
 type TreeNode struct {
 	Val   int

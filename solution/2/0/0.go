@@ -1,4 +1,4 @@
-package s200
+package s20
 
 func NewUnionFind(grid [][]byte) *UnionFind {
 	rows := len(grid)
