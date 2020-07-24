@@ -1,4 +1,4 @@
-package s494
+package s49
 
 import "testing"
 
@@ -11,4 +11,13 @@ func TestFindTargetSumWays(t *testing.T) {
 		t.Fatalf("failed, correct: %d, your: %d\n", correct, result)
 	}
 
+}
+
+func TestFindDiagonalOrder(t *testing.T) {
+	matrix := [][]int{
+		{3},
+		{2},
+	}
+	result := findDiagonalOrder(matrix)
+	t.Logf("%v\n", result)
 }

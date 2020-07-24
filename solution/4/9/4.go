@@ -1,4 +1,4 @@
-package s494
+package s49
 
 //
 func findTargetSumWays(nums []int, S int) int {
