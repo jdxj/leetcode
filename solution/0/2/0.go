@@ -1,4 +1,5 @@
-package s20
+// 20
+package s02
 
 func isValid(s string) bool {
 	m := map[string]string{
