@@ -23,3 +23,11 @@ func TestExtremeInsertionIndex(t *testing.T) {
 	})
 	fmt.Printf("idx2: %d\n", idx)
 }
+
+func TestNext(t *testing.T) {
+	res := ""
+	for i := 0; i < 30; i++ {
+		res = next(i, res)
+		fmt.Printf("i: %2d, len: %4d, res: %s\n", i+1, len(res), res)
+	}
+}
