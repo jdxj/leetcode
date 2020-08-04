@@ -6,7 +6,7 @@ type RandomizedSet struct {
 }
 
 /** Initialize your data structure here. */
-func Constructor() RandomizedSet {
+func Constructor1() RandomizedSet {
 	rs := RandomizedSet{
 		m: make(map[int]struct{}, 1000),
 	}
